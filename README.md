@@ -15,13 +15,13 @@ Note: Change the ipAddress variable if running on different machines.
  
 The list of commands are as follows:-
  
-1. Unicast - To send a message to a client, use command:    unicast  <ClientID>  <message>
+1. Unicast - To send a message to a client, use: #unicast  <ClientID>  <message>
 
-2. Broadcast- To send a message to all clients, use command:   broadcast  <message>
+2. Broadcast- To send a message to all clients, use: #broadcast  <message>
 
-3. Blockcast - To send a message to all clients but one, use command:    blockcast  <ClientID>  <message>
+3. Blockcast - To send a message to all clients but one, use: #blockcast  <ClientID>  <message>
 
-4. File unicast - To send a file to a client use the command unicast-F. The application will then ask for a recipient and filepath respectively.     
+4. File unicast - To send a file to a client use the command #unicast-F. The application will then ask for a recipient and filepath respectively.     
                                For e.g.       
                                            unicast-F
                                            Enter recipient:
@@ -29,13 +29,13 @@ The list of commands are as follows:-
                                            Enter the file path:
                                                   C:\Users\ABC\Desktop\cn.txt
 
-5. File broadcast - To send a file to all clients use the command broadcast-F. The application will then ask for a filepath.  
+5. File broadcast - To send a file to all clients use the command #broadcast-F. The application will then ask for a filepath.  
                                     For e.g.
                                                   broadcast-F
 		          Enter the file path:
 		          C:\Users\ABC\Desktop\cn.txt
 
-6. To close the connection - use command:  quit 
+6. To close the connection - use: #quit 
 
 Any and all files will be stored in the corresponding folder inside \CN_chatclient\Client-side. For convenience, the folder name will be printed when a client instance is first created. 
 The server stores any incoming files in \CN_client\ServerDB. All clients are notified when a client joins or leaves.
